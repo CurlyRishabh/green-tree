@@ -1,0 +1,270 @@
+body{
+    color: #354463;
+    font-family: Helvetica;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+
+/* Media Query for Mobile Devices */
+@media only screen and (max-width: 767px){
+    
+    .header{
+        display: grid;
+        grid-template-areas: "title page"
+                    "btn  btn";
+        align-items: center;
+        margin-bottom: 4%;
+    }
+    
+    .title{
+        grid-area: title;
+        font-size: 22px;
+       
+    }
+    .pages{
+        grid-area: page;
+        
+        font-weight:  lighter;
+        
+    
+    
+    }
+    .btn{
+        grid-area: btn;
+    height: 40px;
+    }
+
+    .stop-container {
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: 44px;
+        background-image: url("assets/home/annie-spratt-135307-unsplash.png");
+        background-repeat: no-repeat;
+        background-size: cover; /* Or contain, depending on your needs */
+        background-position: 80%; /* Center the image */
+        font-family: "Flood std", Arial, sans-serif;
+        min-height: 50vh;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-bottom: 12%;
+
+    }
+    .stop-container > .title{
+        width: 181px;
+        height: 136px;
+        color: #FFFFFF;
+        font-size: 44px;
+    }
+    .stop-content-container{
+        position: relative;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        background-color: #FFFFFF;
+
+        padding-bottom: 4%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .stop-btn{
+        position: relative;
+        top: -20px;
+        width: 160px;
+        height: 40px;
+        font-size: 14px;
+    }
+     .stop-content-container p{
+        font-size: 28px;
+        font-weight: bold;
+     }
+
+    .underline{
+        text-decoration: underline;
+        font-size: 16px;
+    }
+
+}
+
+
+/* Tablet */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+      
+    .header{
+        display: grid;
+        grid-template-areas: "title btn"
+                    "page  btn";
+        align-items: center;
+        grid-template-columns: 2fr 1fr;
+        
+        padding: 2px;
+    }
+    
+    .title{
+        grid-area: title;
+        font-size: 22px;
+       
+    }
+    .pages{
+        grid-area: page;
+        display: flex;
+        /* justify-content: space-between; */
+        column-gap: 40px;
+
+        font-size: 16px;
+        font-weight:  lighter;
+        
+    
+    
+    }
+    .btn{
+        
+        grid-area: btn;
+        place-self:center;
+        width: 140px;
+        height: 48px;
+    }
+
+
+
+    .stop-container {
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: 44px;
+        background-image: url("assets/home/annie-spratt-135307-unsplash.png");
+        background-repeat: no-repeat;
+        background-size: cover; /* Or contain, depending on your needs */
+        background-position: 80%; /* Center the image */
+        font-family: "Flood std", Arial, sans-serif;
+        min-height: 50vh;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-bottom: 12%;
+
+    }
+    .stop-container > .title{
+        width: 181px;
+        height: 136px;
+        color: #FFFFFF;
+        font-size: 44px;
+    }
+    .stop-content-container{
+        position: relative;
+        display: flex;
+        text-align: left;
+        flex-direction: column;
+        align-items: left;
+        background-color: #FFFFFF;
+
+        padding-bottom: 4%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .stop-btn{
+        position: relative;
+        top: -20px;
+        width: 160px;
+        height: 40px;
+        font-size: 14px;
+    }
+     .stop-content-container p{
+        font-size: 28px;
+        font-weight: bold;
+     }
+
+    .underline{
+        text-decoration: underline;
+        font-size: 16px;
+    }
+}
+
+/* Media Query for Desktop Devices */
+@media only screen and (min-width: 1024px){
+      
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        margin-bottom: 4%;
+    }
+    
+    .title{
+       
+        font-size: 22px;
+       
+    }
+    .pages{
+       
+        display: flex;
+        width: 50%;
+        justify-content:space-evenly;
+        font-weight:  lighter;
+        font-size: 16px;
+        
+    
+    
+    }
+    .btn{
+        width: 160px;
+        height: 48px;
+    }
+
+
+    .stop-container {
+        text-align: left;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        font-size: 44px;
+        background-image: url("assets/home/annie-spratt-135307-unsplash.png");
+        background-repeat: no-repeat;
+        background-size: cover; /* Or contain, depending on your needs */
+        background-position: 80%; /* Center the image */
+        font-family: "Flood std", Arial, sans-serif;
+        min-height: 60vh;
+        padding: 10%;
+
+    }
+    .stop-container > .title{
+        width: 181px;
+        height: 136px;
+        color: #FFFFFF;
+        font-size: 44px;
+    }
+    .stop-content-container{
+        position: relative;
+        display: flex;
+        text-align: left;
+        flex-direction: column;
+        align-items: left;
+        background-color: #FFFFFF;
+        padding-left: 10%;
+        padding-right: 10%;
+
+        width: 350px;
+        height: 350px;
+    }
+    .stop-btn{
+        position: relative;
+        top: -20px;
+        width: 160px;
+        height: 40px;
+        font-size: 14px;
+    }
+     .stop-content-container p{
+        font-size: 28px;
+        font-weight: bold;
+     }
+
+    .underline{
+        text-decoration: underline;
+        font-size: 16px;
+    }
+
+
+}

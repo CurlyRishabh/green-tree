@@ -1,0 +1,19 @@
+.btn-green{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C1F7D5;
+    font-weight: bold;
+    border-radius: 100px;
+    opacity: 1;
+    text-align: center;
+}
+
+.btn-black{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    background: #354463;
+    width: 40%;
+}
