@@ -18,6 +18,13 @@ body{
     font-size: 16px;
     top: -20px
 }
+.mission-container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #354463;
+    padding: 10%;
+    justify-content: center;
+}
 
 /* Media Query for Mobile Devices */
 @media only screen and (max-width: 767px){
@@ -108,7 +115,32 @@ body{
         font-weight: bold;
         width: 50%;
     }
+    
+    .mission-do-container{
+       color: white;
+       text-align: center;
+       font-weight: bold;
+       margin: 5%;
+       margin-bottom: 25%;
+       font-size: 22px;
+    }
+    .mission-list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        background-color: #FFFFFF;
+        padding: 0 5% 10% 5%;
+        margin-bottom: 25%;
+    }
 
+    .mission-img{
+        position: relative;
+        width: 240px;
+        height: 170px;
+        top: -40px;
+    }
 }
 
 
@@ -212,6 +244,65 @@ body{
         font-weight: bold;
         width: 50%;
     }
+    .mission-btn{
+        width: 100%; display: flex;
+        justify-content: flex-start;
+    }
+    .mission-do-container{
+        color: white;
+        text-align: left;
+        font-weight: bold;
+        font-size: 22px;
+        margin: 5% 0 5% 0;
+     }
+
+     .mission-do-container{
+        color: white;
+        text-align: center;
+        font-weight: bold;
+        margin: 5%;
+        margin-bottom: 25%;
+        font-size: 22px;
+     }
+     .mission-list{
+         display: flex;
+         flex-direction: row;
+         justify-content: space-around;
+         flex-wrap: wrap;
+        align-items: center;
+         position: relative;
+         background-color: #FFFFFF;
+         margin-bottom: 25%;
+         padding: 0 2% 0 2%;
+         max-height: 38vh;
+     }
+ 
+     .mission-img{
+         position: relative;
+         width: 288px;
+         height: 201px;
+         top: -40px;
+     }
+     .mission-list h3{
+        max-width: 38%;
+        position: relative;
+        top: -10%;
+     }
+     .mission-list p{
+        order: 1;
+         width : 30%;
+         position: relative;
+        top: -20%;
+        font-size: 16px;
+     }
+     
+     .mission-list div{
+        position: relative;
+        top: -20%;
+        left: 5%;
+        min-width: 30%;
+     }
+     
 }
 
 /* Media Query for Desktop Devices */
@@ -304,6 +395,57 @@ body{
     .action-container .actions{
         font-weight: bold;
         width: 25%;
+    }
+
+    .mission-btn{
+        width: 100%; display: flex;
+        justify-content: flex-start;
+    }
+    .mission-do-container{
+        color: white;
+        text-align: left;
+        font-weight: bold;
+        font-size: 22px;
+        margin: 5% 0 5% 0;
+     }
+
+     .mission-list{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+       align-items: center;
+        position: relative;
+        background-color: #FFFFFF;
+        margin-bottom: 25%;
+        padding: 0 2% 0 2%;
+        max-height: 38vh;
+    }
+
+     .mission-img{
+        position: relative;
+        width: 288px;
+        height: 201px;
+        top: -40px;
+    }
+    .mission-list h3{
+       max-width: 38%;
+       position: relative;
+       top: -10%;
+    }
+    .mission-list p{
+       order: 1;
+        width : 30%;
+        position: relative;
+       top: -20%;
+       font-size: 16px;
+    }
+    
+    .mission-list div{
+       position: relative;
+       top: -20%;
+       left: 5%;
+       min-width: 30%;
     }
 
 }

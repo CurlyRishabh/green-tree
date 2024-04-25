@@ -7,6 +7,8 @@
     border-radius: 100px;
     opacity: 1;
     text-align: center;
+    min-width: 160px;
+    height: 40px;
 }
 
 .btn-black{
@@ -15,6 +17,16 @@
     align-items: center;
     color: #FFFFFF;
     background: #354463;
-    width: 160px;
+    min-width: 160px;
     font-weight: lighter;
+}
+
+.btn-white{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    min-width: 160px;
+    font-weight: lighter;
+    height: 40px;
 }
