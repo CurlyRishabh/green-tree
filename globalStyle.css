@@ -3,12 +3,14 @@
     justify-content: center;
     align-items: center;
     background-color: #C1F7D5;
+    color: black;
     font-weight: bold;
     border-radius: 100px;
     opacity: 1;
     text-align: center;
     min-width: 160px;
     height: 40px;
+    font-size: 18px;
 }
 
 .btn-black{
@@ -29,4 +31,10 @@
     min-width: 160px;
     font-weight: lighter;
     height: 40px;
+}
+
+.flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

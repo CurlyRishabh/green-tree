@@ -130,6 +130,7 @@ body{
         align-items: center;
         text-align: center;
         position: relative;
+
         background-color: #FFFFFF;
         padding: 0 5% 10% 5%;
         margin-bottom: 25%;
@@ -140,6 +141,41 @@ body{
         width: 240px;
         height: 170px;
         top: -40px;
+    }
+
+    .issue-container{
+        display: flex;
+        flex-direction: column;
+        background-image: url(" assets/home/did-you-know-background.png");
+        /* background-position: center; */
+        background-size:cover;
+        background-repeat: no-repeat;
+        padding: 10%;
+       
+    }
+    .issue-heading{
+        max-width: 60%;
+        color: #FFFFFF;
+    }
+
+    .know-btn{
+        position: relative;
+        height: 40px;
+        bottom: -40px;
+        max-width: 30%;
+    }
+    .issue{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #FFFFFF;
+        margin: 5% 0 5% 0;
+        padding: 5%;
+    }
+    .issue h2{
+        width: 50%;
     }
 }
 
@@ -397,6 +433,7 @@ body{
         width: 25%;
     }
 
+
     .mission-btn{
         width: 100%; display: flex;
         justify-content: flex-start;
@@ -409,43 +446,95 @@ body{
         margin: 5% 0 5% 0;
      }
 
+     .mission-do-container{
+        color: white;
+        text-align: center;
+        font-weight: bold;
+        margin: 5%;
+        margin-bottom: 25%;
+        font-size: 22px;
+     }
      .mission-list{
+         display: flex;
+         flex-direction: row;
+         justify-content: space-around;
+         flex-wrap: wrap;
+        align-items: center;
+         position: relative;
+         background-color: #FFFFFF;
+         margin-bottom: 25%;
+         padding: 0 2% 0 2%;
+         max-height: 38vh;
+     }
+ 
+     .mission-img{
+         position: relative;
+         width: 288px;
+         height: 201px;
+         top: -40px;
+     }
+     .mission-list h3{
+        max-width: 38%;
+        position: relative;
+        top: -10%;
+     }
+     .mission-list p{
+        order: 1;
+         width : 30%;
+         position: relative;
+        top: -20%;
+        font-size: 16px;
+     }
+     
+     .mission-list div{
+        position: relative;
+        top: -20%;
+        left: 5%;
+        min-width: 30%;
+     }
+
+}
+
+/* Tablet and desktop*/
+@media only screen and (min-width: 769px){
+    .issue-container{
+        position: relative;
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        align-content: space-between;
+        background-image: url(" assets/home/did-you-know-background.png");
+        /* background-position: center; */
+        background-size:cover;
+        background-repeat: no-repeat;
+        padding: 10%;
+        column-gap: 10%;
+       
+    }
+    .issue-heading{
+        top: 20px;
+        position: relative;
+        font-size: 44px;
+        max-width: 60%;
+        color: #FFFFFF;
+    }
+
+    .know-btn{
+        position: relative;
+        height: 40px;
+        bottom: -40px;
+        max-width: 30%;
+    }
+    .issue{
+        display: flex;
+        flex-direction: row;
         flex-wrap: wrap;
-       align-items: center;
-        position: relative;
+        align-items: center;
+        justify-content: space-between;
         background-color: #FFFFFF;
-        margin-bottom: 25%;
-        padding: 0 2% 0 2%;
-        max-height: 38vh;
+        margin: 5% 0 5% 0;
+        padding: 5%;
     }
-
-     .mission-img{
-        position: relative;
-        width: 288px;
-        height: 201px;
-        top: -40px;
+    .issue h2{
+        width: 50%;
     }
-    .mission-list h3{
-       max-width: 38%;
-       position: relative;
-       top: -10%;
-    }
-    .mission-list p{
-       order: 1;
-        width : 30%;
-        position: relative;
-       top: -20%;
-       font-size: 16px;
-    }
-    
-    .mission-list div{
-       position: relative;
-       top: -20%;
-       left: 5%;
-       min-width: 30%;
-    }
-
 }
