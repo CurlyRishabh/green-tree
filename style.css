@@ -5,6 +5,19 @@ body{
     margin-right: 5%;
     margin-top: 2%;
 }
+.action-container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #C1F7D5;
+    justify-content: space-evenly;
+    padding: 0 10% 0 10%;
+}
+.take-action-btn{
+    position: relative;
+    height: 40px;
+    font-size: 16px;
+    top: -20px
+}
 
 /* Media Query for Mobile Devices */
 @media only screen and (max-width: 767px){
@@ -85,6 +98,15 @@ body{
     .underline{
         text-decoration: underline;
         font-size: 16px;
+    }
+
+    .action-container p{
+        font-size: 16px;
+        font-weight: lighter;
+    }
+    .action-container .actions{
+        font-weight: bold;
+        width: 50%;
     }
 
 }
@@ -181,6 +203,15 @@ body{
         text-decoration: underline;
         font-size: 16px;
     }
+
+    .action-container p{
+        font-size: 16px;
+        font-weight: lighter;
+    }
+    .action-container .actions{
+        font-weight: bold;
+        width: 50%;
+    }
 }
 
 /* Media Query for Desktop Devices */
@@ -266,5 +297,13 @@ body{
         font-size: 16px;
     }
 
+    .action-container p{
+        font-size: 16px;
+        font-weight: lighter;
+    }
+    .action-container .actions{
+        font-weight: bold;
+        width: 25%;
+    }
 
 }
