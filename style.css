@@ -285,6 +285,34 @@ body{
         font-size: 16px;
     }
     
+    .subscribe-container{
+        display: flex;
+        /* flex-direction: ; */
+        flex-wrap: wrap;
+        justify-content: space-between;
+        background-color: #C1F7D5;
+        padding: 5%;
+    }
+    .subscribe-container h2{
+        
+    }
+    .input-div{
+        background-color: #ffffff;
+        border-radius: 100px;
+        height: 40px;
+        padding: 4px;
+    }
+    .input-div input{
+        border: none; 
+        outline: none;
+    }
+    .subscribe-container .btn-black{
+        border-radius: 100px;
+        height: 40px;
+        padding: 4px;
+        color: #C1F7D5;
+        font-weight: bold;
+    }
 
 }
 
@@ -508,6 +536,37 @@ body{
     .story p{
         text-align: left;
     }
+
+    .subscribe-container{
+        display: flex;
+        /* flex-direction: ; */
+        flex-wrap: wrap;
+        justify-content: space-between;
+        background-color: #C1F7D5;
+        padding: 5%;
+    }
+    .subscribe-container h2{
+        width: 70%;
+    }
+    .input-div{
+        width: 65%;
+        background-color: #ffffff;
+        border-radius: 100px;
+        height: 40px;
+        padding: 4px;
+    }
+    .input-div input{
+        
+        border: none; 
+        outline: none;
+    }
+    .subscribe-container .btn-black{
+        border-radius: 100px;
+        height: 40px;
+        padding: 4px;
+        color: #C1F7D5;
+        font-weight: bold;
+    }
 }
 
 /* Media Query for Desktop Devices */
@@ -704,6 +763,40 @@ body{
     }
     .story p{
         text-align: left;
+    }
+
+
+    .subscribe-container{
+        display: flex;
+        /* flex-direction: ; */
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #C1F7D5;
+        padding: 2%;
+    }
+    .subscribe-container h2{
+        width: 40%;
+    }
+    .input-div{
+        width: 30%;
+        background-color: #ffffff;
+        border-radius: 100px;
+        height: 40px;
+        padding: 4px;
+    }
+    .input-div input{
+        
+        border: none; 
+        outline: none;
+    }
+    .subscribe-container .btn-black{
+        width: 20%;
+        border-radius: 100px;
+        height: 40px;
+        padding: 4px;
+        color: #C1F7D5;
+        font-weight: bold;
     }
 
 }
