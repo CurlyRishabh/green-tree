@@ -1,0 +1,89 @@
+body{
+    color: #354463;
+    font-family: Helvetica;
+    margin: 0;
+    padding: 0;
+}
+.action-container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #C1F7D5;
+    justify-content: space-evenly;
+    padding: 0 10% 0 10%;
+}
+.take-action-btn{
+    position: relative;
+    height: 40px;
+    font-size: 16px;
+    top: -20px
+}
+
+
+
+
+.donation-container{
+    display: flex;
+    flex-direction: column;
+   justify-self: center;
+    border: 2px solid black;
+    padding: 5%;
+}
+.donation-info{
+    border: 2px solid blue;
+    padding: 5%;
+    background-color: #354463;
+    color: #FFFFFF;
+}
+
+.donation-personal-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.payment-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+}
+
+label{
+    display: block;
+    margin-bottom: 4px;
+    font-size: 11px;
+}
+
+.donation-container input{
+    display: grid;
+    border: none;
+    border-bottom: 1px solid #C1F7D5;  
+    background-color: inherit;  
+    outline: none;
+    color: white;
+    font-size: 11px;
+    width: 100%; 
+    box-sizing: border-box;
+}
+
+
+/* Media Query for Mobile Devices */
+@media only screen and (max-width: 767px){
+ 
+
+
+}
+
+
+
+/* Tablet */
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+
+}
+ 
+
+@media only screen and (min-width: 1024px){
+
+}
+ 
