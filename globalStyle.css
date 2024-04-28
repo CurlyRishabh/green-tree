@@ -13,6 +13,11 @@
     font-size: 18px;
 }
 
+.btn-green :hover{
+    color: black;
+    background-color: #b2f9cc;
+}
+
 .btn-black{
     display: flex;
     justify-content: center;
