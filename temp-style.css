@@ -1,17 +1,19 @@
-body{
+body {
     color: #354463;
     font-family: Helvetica;
     margin: 0;
     padding: 0;
 }
-.action-container{
+
+.action-container {
     display: flex;
     flex-wrap: wrap;
     background-color: #C1F7D5;
     justify-content: space-evenly;
     padding: 0 10% 0 10%;
 }
-.take-action-btn{
+
+.take-action-btn {
     position: relative;
     height: 40px;
     font-size: 16px;
@@ -19,23 +21,21 @@ body{
 }
 
 
+
+
+
+
 /* Media Query for Mobile Devices */
-@media only screen and (max-width: 767px){
- 
-
-
-}
+@media only screen and (max-width: 767px) {}
 
 
 
 /* Tablet */
-@media only screen and (min-width: 768px) and (max-width: 1023px){
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
 
 }
- 
 
-@media only screen and (min-width: 1024px){
-
+/* Desktop */
+@media only screen and (min-width: 1024px) {
 
 }
- 

@@ -13,9 +13,11 @@
     font-size: 18px;
 }
 
-.btn-green :hover{
+.btn-green:hover{
     color: black;
     background-color: #b2f9cc;
+    box-shadow: 0 0 10px 3px rgba(75, 255, 123, 0.5);
+
 }
 
 .btn-black{
@@ -27,6 +29,7 @@
     min-width: 160px;
     font-weight: lighter;
 }
+
 
 .btn-white{
     display: flex;

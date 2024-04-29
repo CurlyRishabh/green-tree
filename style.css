@@ -25,10 +25,10 @@ body{
     .header{
         display: grid;
         grid-template-areas: "title page"
-                    "btn  btn";
+                            "btn  btn";
         align-items: center;
         margin-bottom: 4%;
-        padding: 0 10% 0 10%;
+        padding: 5% 10% 0 10%;
     }
     
     .title{
@@ -46,7 +46,7 @@ body{
     }
     .btn{
         grid-area: btn;
-    height: 40px;
+        height: 40px;
     }
 
     .stop-container {
@@ -81,8 +81,6 @@ body{
         background-color: #FFFFFF;
 
         padding-bottom: 4%;
-        padding-left: 10%;
-        padding-right: 10%;
     }
     .stop-btn{
         position: relative;
@@ -245,6 +243,7 @@ body{
         align-items: center;
         text-align: center;
         color: white;
+        padding: 0 10%;
     }
     
     .event-list-container{
@@ -291,11 +290,9 @@ body{
         flex-wrap: wrap;
         justify-content: space-between;
         background-color: #C1F7D5;
-        padding: 5%;
+        padding: 5% 10%;
     }
-    .subscribe-container h2{
-        
-    }
+
     .input-div{
         background-color: #ffffff;
         border-radius: 100px;
@@ -312,6 +309,7 @@ body{
         padding: 4px;
         color: #C1F7D5;
         font-weight: bold;
+        min-width: 120px;
     }
 
     .footer{
@@ -346,9 +344,8 @@ body{
                     "page  btn";
         align-items: center;
         grid-template-columns: 2fr 1fr;
-        padding: 2% 5% 2% 5%;
-    }
-    
+        padding: 2% 10% 2% 10%;
+    } 
     .title{
         grid-area: title;
         font-size: 22px;
@@ -362,9 +359,6 @@ body{
 
         font-size: 16px;
         font-weight:  lighter;
-        
-    
-    
     }
     .btn{
         
@@ -440,7 +434,7 @@ body{
         display: flex;
         flex-wrap: wrap;
         background-color: #354463;
-        padding: 10% 10% 0 10%;
+        padding: 10%;
         justify-content: left;
     }
     .mission-btn{
@@ -562,7 +556,7 @@ body{
         flex-wrap: wrap;
         justify-content: space-between;
         background-color: #C1F7D5;
-        padding: 5%;
+        padding: 5% 10%;
     }
     .subscribe-container h2{
         width: 70%;
@@ -621,7 +615,9 @@ body{
         display: flex;
         justify-content: space-between;
         align-content: center;
-        padding: 2% 5% 2% 5%;
+        /* padding: 2% 5% 2% 5%; */
+        padding: 2% 10% 2% 10%;
+
     }
     
     .title{
@@ -656,7 +652,7 @@ body{
         background-repeat: no-repeat;
         background-size: cover; /* Or contain, depending on your needs */
         background-position: 80%; /* Center the image */
-        font-family: "Flood std", Arial, sans-serif;
+        font-family: "Flood-std", Arial, sans-serif;
         min-height: 60vh;
         padding: 10%;
 
@@ -756,6 +752,7 @@ body{
     .mission-list h3{
         text-align: center;
         margin: 0;
+        font-size: 26px;
     }
     .mission-list p{
         text-align: center;

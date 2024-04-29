@@ -1,0 +1,229 @@
+.mission-values{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+
+
+.impact-container {
+    padding: 2% 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-image: url("../assets/about-us/Impact Background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 80%;
+    background-color: rgb(53, 68, 99);
+    color: white;
+}
+
+.impact-list-container h1{
+    margin-bottom: 0px;
+}
+.impact-list-container p{
+    margin-top: 0px;
+}
+
+
+/* Media Query for Mobile Devices */
+@media only screen and (max-width: 767px){
+
+    .mission-values .value{
+        width: 45%;
+        margin-bottom: 15%;
+
+    }
+    .mission-values p{
+        font-size: 14px;
+    }
+    .mission-values h4{
+        font-size: 16px;
+    }
+
+    .mission-values img{
+        height: 40px;
+    }
+
+
+
+    .team-container{
+        padding: 5% 10%;
+        padding-bottom: 0px;
+    }
+    
+    .team-member-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .team-container .team-btn{
+        width: 40px;
+        height: 30px;
+    }
+    
+    
+    .team-member{
+        position: relative;
+        width: 45%;
+        margin-bottom: 10%;
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+    
+    .team-member img{
+        width: 100%;
+    }
+    
+    .team-member .btn-black{
+        margin-top: 0px;
+        height: 50px;
+        min-width: 10px;
+    
+    }
+
+}
+
+
+/* Tablet */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .stop-container{
+        flex-direction: column-reverse;
+    }
+  
+    .mission-values .value{
+        width: 30%;
+        margin-bottom: 15%;
+
+    }
+    .mission-values p{
+        font-size: 14px;
+    }
+    .mission-values h4{
+        font-size: 16px;
+    }
+
+    .mission-values img{
+        height: 40px;
+    }
+
+
+    .team-member{
+        position: relative;
+        width: 40%;
+        margin-bottom: 10%;
+   
+    }
+    .team-member-container{
+        column-gap: 10%;
+    }
+
+    .impact-list-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .impact {
+        width: 45%;
+    }
+    
+}
+
+
+/* Media Query for Desktop Devices */
+@media only screen and (min-width: 1024px){
+
+    .mission-values .value{
+        width: 21%;
+        margin-bottom: 10%;
+
+    }
+    .mission-values p{
+        font-size: 14px;
+    }
+    .mission-values h4{
+        font-size: 16px;
+    }
+
+    .mission-values img{
+        height: 40px;
+    }
+
+
+    .team-member{
+        position: relative;
+        width: 30%;
+        margin-bottom: 10%;
+   
+    }
+    .team-member-container{
+        column-gap: 5%;
+    }
+
+
+    .impact-list-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .impact {
+        width: 20%;
+    }
+}
+
+
+/* Tablet and desktop*/
+@media only screen and (min-width: 769px){
+    .team-container{
+        padding: 5% 10%;
+        padding-bottom: 0px;
+    }
+    
+    .team-description{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 10%;
+    }
+    
+    .team-member-container{
+        display: flex;
+        flex-wrap: wrap;
+    
+    }
+    .team-description h1{
+        width: 45%;
+    }
+    .team-description p{
+        width: 45%;
+    }
+    
+    .team-container .team-btn{
+        width: 80px;
+        height: 40px;
+    }
+    
+    
+    .team-member img{
+        width: 100%;
+    }
+    
+    .team-member .btn-black{
+        position: relative;
+        margin-top: 0px;
+        height: 40px;
+        width: 100%;
+        top: -30px;
+        left: 10%;
+    }
+
+}
