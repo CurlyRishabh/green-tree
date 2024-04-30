@@ -450,7 +450,7 @@ body{
         font-family: Helvetica;
     }
 
-
+q
     .mission-list{
      position: relative;
      display: flex;
@@ -968,6 +968,4 @@ body{
     .event-img-2{
         order:1;
     }
-
-
 }

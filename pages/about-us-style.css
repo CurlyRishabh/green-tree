@@ -89,13 +89,111 @@
     
     }
 
+
+
+
+.slider-container{
+    background-color: #354463;
+    padding: 5% 10% 0 10%;
+    box-sizing: border-box;
+}
+.slide-wrapper{
+    /* position: relative; */
+    display: flex;
+    overflow-x:auto;
+    /* overflow-y: visible; */
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+
+
+}
+.slide{
+    background-color: white;
+    flex: 1 0 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 10%;
+    padding-bottom: 5%;
+    position: relative;
+}
+
+.slide img{
+    width: 100%;
+    position: relative;
+}
+.slide h3, p{
+    padding: 0 5%;
+}
+.slide .btn-white{
+    width: 30%;
+    position: absolute;
+    z-index: 2;
+    top: -20px;
+
+}
+.slide .slide-arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C1F7D5;
+    color: #354463;
+    font-weight: bold;
+    border-radius: 100%;
+    opacity: 1;
+    text-align: center;
+    min-width: 40px;
+    height: 40px;
+    font-size: 40px;
+    color: #354463;
+    padding-top: 3px;
+    text-decoration: none;
+    position: absolute;
+    top: 25%;
+    right: 5px;
+}
+.slide .slide-arrow:hover{
+    box-shadow: 0 0 10px 3px rgba(75, 255, 123, 0.5);
+
+}
+
+.slider-nav{
+    display: flex;
+    column-gap: 1rem;
+    height: 40px;
+    justify-content: center;
+    padding-top: 5%;    
+  }
+  
+  .slider-nav a{
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: white;
+    border-radius: 50%;
+    opacity: 0.75;
+  }
+  .slider-nav a:hover{
+    opacity: 1;
+    box-shadow: 0 0 10px 3px rgb(255, 255, 255);
+
+  }
+
+  .slider-title h1{
+    width: 100%;
+    text-align: center;
+  }
+  .slider-title .slide-arrow{
+    display: none
+  }
+
 }
 
 
 /* Tablet */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
     .stop-container{
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
   
     .mission-values .value{
@@ -140,6 +238,20 @@
 
 /* Media Query for Desktop Devices */
 @media only screen and (min-width: 1024px){
+
+    .stop-container{
+        flex-direction: row;
+        min-height: 20vh;
+        height: 20vh;
+        justify-content: space-between;
+    }
+    .stop-content-container{
+        height: 320px;
+        width: 400px;
+        /* padding-bottom: 2%; */
+    }
+
+
 
     .mission-values .value{
         width: 21%;
@@ -226,4 +338,112 @@
         left: 10%;
     }
 
+
+
+    .slider-container{
+        background-color: #354463;
+        padding: 5% 10% 0 10%;
+        box-sizing: border-box;
+    }
+    .slide-wrapper{
+        /* position: relative; */
+        display: flex;
+        overflow-x:auto;
+        column-gap: 10%;
+        /* overflow-y: visible; */
+        scroll-snap-type: x mandatory;
+        scroll-behavior: smooth;
+    
+    
+    }
+    .slide{
+        background-color: white;
+        flex: 1 0 45%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+        margin-top: 10%;
+        
+        padding-bottom: 5%;
+
+        position: relative;
+
+    }
+    
+    .slide img{
+        width: 100%;
+        position: relative;
+    }
+    .slide h3, p{
+        padding: 0 5%;
+    }
+    .slide .btn-white{
+        width: 30%;
+        position: absolute;
+        z-index: 2;
+        top: -20px;
+        margin-left: 5%;
+    
+    }
+
+    .slide .btn-green{
+        width: 30%;
+        margin-left: 5%;
+
+    }
+    .slide .slide-arrow{
+        display: none;
+    }    
+    
+    .slider-nav{
+        display: flex;
+        column-gap: 1rem;
+        height: 40px;
+        justify-content: center;
+        padding-top: 5%;    
+      }
+      
+      .slider-nav a{
+        width: 0.5rem;
+        height: 0.5rem;
+        background-color: white;
+        border-radius: 50%;
+        opacity: 0.75;
+      }
+      .slider-nav a:hover{
+        opacity: 1;
+        box-shadow: 0 0 10px 3px rgb(255, 255, 255);
+    
+      }
+      .slider-title{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .slider-title h1{
+        width: 80%;
+        text-align: left;
+      }
+      .slider-title .slide-arrow{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #C1F7D5;
+        color: #354463;
+        font-weight: bold;
+        border-radius: 100%;
+        opacity: 1;
+        text-align: center;
+        min-width: 80px;
+        height: 80px;
+        font-size: 70px;
+        color: #354463;
+        padding-top: 3px;
+        text-decoration: none;
+      }
+      .slider-title .slide-arrow:hover{
+    box-shadow: 0 0 10px 3px rgba(75, 255, 123, 0.5);
+
+      }
 }
