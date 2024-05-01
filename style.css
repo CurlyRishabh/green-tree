@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Flood Std';
+    src: url('./fonts/floodstd.otf') format('opentype');
+}
+
 body{
     color: #354463;
     font-family: Helvetica;
@@ -16,6 +21,25 @@ body{
     height: 40px;
     font-size: 16px;
     top: -20px
+}
+
+.stop-container{
+    background-color: rgb(53, 68, 99);
+}
+
+.stop-container .title{
+    font-family: 'Flood Std';
+    font-size: 44px;
+}
+
+.footer h1{
+    font-family: 'Flood Std',Arial, Helvetica, sans-serif;
+    font-size: 44px;
+}
+
+.event-container h1{
+    font-family: 'Flood Std',Arial, Helvetica, sans-serif;
+    font-size: 44px;
 }
 
 /* Media Query for Mobile Devices */
@@ -56,7 +80,6 @@ body{
         background-repeat: no-repeat;
         background-size: cover; /* Or contain, depending on your needs */
         background-position: 80%; /* Center the image */
-        font-family: "Flood std", Arial, sans-serif;
         min-height: 50vh;
         padding-left: 10%;
         padding-right: 10%;
@@ -68,6 +91,7 @@ body{
         height: 136px;
         color: #FFFFFF;
         font-size: 44px;
+
     }
     .stop-content-container{
         position: relative;
@@ -390,8 +414,8 @@ body{
         background-repeat: no-repeat;
         background-size: cover; /* Or contain, depending on your needs */
         background-position: 80%; /* Center the image */
-        font-family: "Flood std", Arial, sans-serif;
-        min-height: 50vh;
+        font-family: Arial, sans-serif;
+        min-height: 70vh;
         padding-left: 10%;
         padding-right: 10%;
         padding-bottom: 12%;
@@ -402,6 +426,7 @@ body{
         height: 136px;
         color: #FFFFFF;
         font-size: 44px;
+        padding-top: 5%;
     }
     .stop-content-container{
         position: relative;
@@ -514,7 +539,7 @@ body{
      
 
      .story-container{
-        height: 100vh;
+        /* height: 100vh; */
         display: flex;
         flex-direction: column;
         /* padding: 10%; */
@@ -616,7 +641,7 @@ body{
 }
 
 /* Media Query for Desktop Devices */
-@media only screen and (min-width: 1024px){
+@media only screen and (min-width: 1023px){
       
     .header{
         display: flex;
@@ -770,10 +795,10 @@ body{
 
 
      .story-container{
-        height: 100vh;
+        /* height: 100vh; */
         display: flex;
         flex-direction: row-reverse;
-        /* padding: 10%; */
+        padding: 0 10%;
         margin-top: 10%;
         align-items: center;
         justify-content: center;
@@ -822,11 +847,13 @@ body{
         justify-content: space-between;
         align-items: center;
         background-color: #C1F7D5;
-        padding: 2%;
+        padding: 2% 10%;
     }
     .subscribe-container h2{
         width: 40%;
+        font-size: 23px;
     }
+
     .input-div{
         width: 30%;
         background-color: #ffffff;
@@ -923,7 +950,7 @@ body{
         position: relative;
         text-align: left;
         color: white;
-        padding: 5%;
+        padding: 5% 10%;
         margin-top: 10%;
         align-items: space;
     }
