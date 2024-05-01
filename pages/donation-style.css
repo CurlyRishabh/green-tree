@@ -71,11 +71,23 @@ label{
     box-sizing: border-box;
 }
 
-
+select {
+    /* appearance: none; */
+    /* -moz-appearance: none; */
+    /* -webkit-appearance: none; */
+    background: inherit;
+    border: none;
+    text-decoration: underline;
+    color: inherit;
+  }
 /* Media Query for Mobile Devices */
 @media only screen and (max-width: 767px){
  
-
+    .donation-process{
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
 
 }
 

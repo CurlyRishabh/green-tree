@@ -36,8 +36,15 @@
             </div>
             
             <div style="display: grid; grid-column: 3/4 ">
-                <label>STATE</label>
-                <input  placeholder="State">
+                <label for="stateDropdown">STATE</label>
+                    <select id="stateDropdown">
+                        <option value="" selected disabled>Select a State</option>
+                        <option value="Alabama">Alabama</option>
+                        <option value="Alaska">Alaska</option>
+                        <option value="Arizona">Arizona</option>
+                        <option value="Arkansas">Arkansas</option>
+                        <option value="California">California</option>
+                    </select>
             </div>
             
             <div  style="display: grid; grid-column: 4/5"> 
@@ -72,7 +79,7 @@
     <h3 style="margin: 10% 0 10% 0">Click the button to confirm your donation of $10, recurring monthly.</h3>
     <div class="donation-process">
         <div class="btn-green">Process Payment</div>
-        <p style="color: #C1F7D5; text-decoration: underline;">Go back</p>
+        <a href="javascript:history.back()" style="color: #C1F7D5; text-decoration: underline;">Go back</a>
     </div>
     </div>
 
