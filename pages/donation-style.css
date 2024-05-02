@@ -1,43 +1,47 @@
-body{
+body {
     color: #354463;
     font-family: Helvetica;
     margin: 0;
     padding: 0;
 }
-.action-container{
+
+.action-container {
     display: flex;
     flex-wrap: wrap;
     background-color: #C1F7D5;
     justify-content: space-evenly;
     padding: 0 10% 0 10%;
 }
-.take-action-btn{
+
+.take-action-btn {
     position: relative;
     height: 40px;
     font-size: 16px;
     top: -20px
 }
 
-.donation-container{
+.donation-container {
     display: flex;
     flex-direction: column;
     background-image: url("../assets/donation/annie-spratt-427340-unsplash.png");
     background-repeat: no-repeat;
-    background-size: cover; /* Or contain, depending on your needs */
-    background-position: 80%;   
-   justify-self: center;
-   background-color: rgba(0, 0, 0, 0.4);
+    background-size: cover;
+    /* Or contain, depending on your needs */
+    background-position: 80%;
+    justify-self: center;
+    background-color: rgba(0, 0, 0, 0.4);
     /* border: 2px solid black; */
     padding: 5%;
 }
-.donation-info{
+
+.donation-info {
     /* border: 2px solid blue; */
     padding: 5%;
     background-color: #354463;
     color: #FFFFFF;
 }
 
-.donation-personal-info{
+.donation-personal-info {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -45,7 +49,7 @@ body{
     font-size: 11px;
 }
 
-.payment-container{
+.payment-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -53,21 +57,21 @@ body{
     font-size: 11px;
 }
 
-label{
+label {
     display: block;
     margin-bottom: 4px;
     /* font-size: 11px; */
 }
 
-.donation-container input{
+.donation-container input {
     display: grid;
     border: none;
-    border-bottom: 1px solid #C1F7D5;  
-    background-color: inherit;  
+    border-bottom: 1px solid #C1F7D5;
+    background-color: inherit;
     outline: none;
     color: white;
     /* font-size: 11px; */
-    width: 100%; 
+    width: 100%;
     box-sizing: border-box;
 }
 
@@ -81,11 +85,12 @@ select {
     color: inherit;
     font-size: 18px;
 
-  }
+}
+
 /* Media Query for Mobile Devices */
-@media only screen and (max-width: 767px){
- 
-    .donation-process{
+@media only screen and (max-width: 767px) {
+
+    .donation-process {
         display: flex;
         flex-direction: column;
         row-gap: 20px;
@@ -96,60 +101,67 @@ select {
 
 
 /* Tablet */
-@media only screen and (min-width: 768px) and (max-width: 1023px){
-    .donation-process{
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .donation-process {
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
     }
-    .donation-process .btn-green{
+
+    .donation-process .btn-green {
         width: 50%;
     }
 }
- 
 
-@media only screen and (min-width: 1024px){
 
-    .donation-container{
+@media only screen and (min-width: 1024px) {
+
+    .donation-container {
         display: flex;
         flex-direction: row-reverse;
 
     }
-    .donation-info{
+
+    .donation-info {
         width: 45%;
     }
-    .donation-personal-info{
+
+    .donation-personal-info {
 
         gap: 25px;
     }
 
-    .payment-container{
+    .payment-container {
         gap: 25px;
     }
 
-    .donation-container input{
+    .donation-container input {
         font-size: 20px;
     }
-    .donation-container h1{
+
+    .donation-container h1 {
         width: 45%;
         text-align: center;
         font-size: 72px;
     }
-    .donation-process{
+
+    .donation-process {
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
         gap: 30px;
     }
-    .donation-process .btn-green{
+
+    .donation-process .btn-green {
         width: 50%;
     }
-    .donation-personal-info{
+
+    .donation-personal-info {
         font-size: 14px;
     }
-    .payment-container{
+
+    .payment-container {
         font-size: 14px;
     }
 
 }
- 

@@ -1,4 +1,4 @@
-.btn-green{
+.btn-green {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,14 +13,14 @@
     font-size: 18px;
 }
 
-.btn-green:hover{
+.btn-green:hover {
     color: black;
     background-color: #b2f9cc;
     box-shadow: 0 0 10px 3px rgba(75, 255, 123, 0.5);
 
 }
 
-.btn-black{
+.btn-black {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,7 +31,7 @@
 }
 
 
-.btn-white{
+.btn-white {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,10 +39,10 @@
     min-width: 160px;
     font-weight: lighter;
     height: 40px;
-    color:#354463;
+    color: #354463;
 }
 
-.flex-center{
+.flex-center {
     display: flex;
     align-items: center;
     justify-content: center;
