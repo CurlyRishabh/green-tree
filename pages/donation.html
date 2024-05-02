@@ -17,26 +17,27 @@
         <h3>Your information</h3>
         <div class="donation-personal-info">
             <div style="display: grid; grid-column: 1/3;">
-                <label>FIRST NAME</label>
-                <input  placeholder="First name">
+                <label for="first-name">FIRST NAME</label>
+                <input id="first-name" placeholder="First name">
             </div>            
            <div style="display: grid; grid-column: 3/5 " >
-                <label>FIRST NAME</label>
-                <input  placeholder="First name">
+                <label for="last-name">LAST NAME</label>
+                <input  id="last-name" placeholder="Last name">
             </div>
             
             <div style="display: grid; grid-column: 1/5 ">
-                <label>STREET ADDRESS</label>
-                <input placeholder="Street Address">
+                <label for="street-address">STREET ADDRESS</label>
+                <input id="street-address" placeholder="Street Address">
             </div>
             
             <div style="display: grid; grid-column: 1/3 ">
-                <label>CITY</label>
-                <input  placeholder="CITY name">
+                <label for="city-name">CITY</label>
+                <input id="city-name"  placeholder="CITY name">
             </div>
             
             <div style="display: grid; grid-column: 3/4 ">
                 <label for="stateDropdown">STATE</label>
+                <div style="border-bottom: 1px solid #C1F7D5;">
                     <select id="stateDropdown">
                         <option value="" selected disabled>Select a State</option>
                         <option value="Alabama">Alabama</option>
@@ -45,6 +46,7 @@
                         <option value="Arkansas">Arkansas</option>
                         <option value="California">California</option>
                     </select>
+                </div>
             </div>
             
             <div  style="display: grid; grid-column: 4/5"> 

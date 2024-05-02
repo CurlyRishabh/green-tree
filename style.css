@@ -42,6 +42,10 @@ body{
     font-size: 44px;
 }
 
+.issue-heading h2{
+    font-family: 'Flood Std';
+}
+
 /* Media Query for Mobile Devices */
 @media only screen and (max-width: 767px){
     

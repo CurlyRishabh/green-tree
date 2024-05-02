@@ -7,6 +7,13 @@
     
 }
 
+.mission-container p{
+    padding: 0px;
+}
+.team-container p {
+    padding: 0px;
+}
+
 
 
 .impact-container {
@@ -232,6 +239,13 @@
     .impact {
         width: 45%;
     }
+
+    .slide-wrapper{
+        column-gap: 10%;
+    }
+    .slide{
+        flex: 1 0 45%;
+    }
     
 }
 
@@ -289,6 +303,13 @@
 
     .impact {
         width: 20%;
+    }
+
+    .slide-wrapper{
+        column-gap: 5%;
+    }
+    .slide{
+        flex: 1 0 30%;
     }
 }
 
@@ -349,16 +370,17 @@
         /* position: relative; */
         display: flex;
         overflow-x:auto;
-        column-gap: 10%;
+        /* column-gap: 10%; */
         /* overflow-y: visible; */
         scroll-snap-type: x mandatory;
         scroll-behavior: smooth;
     
     
     }
+
     .slide{
         background-color: white;
-        flex: 1 0 45%;
+        /* flex: 1 0 45%; */
         display: flex;
         flex-direction: column;
         align-items: flex-start;
