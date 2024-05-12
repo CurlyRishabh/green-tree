@@ -151,29 +151,33 @@
     }
 
     .slide .slide-arrow {
-        display: flex;
+        display: grid;
         justify-content: center;
         align-items: center;
         background-color: #C1F7D5;
         color: #354463;
         font-weight: bold;
-        border-radius: 100%;
+        border-radius: 50%;
         opacity: 0.7;
-        text-align: center;
+        /* text-align: center; */
         min-width: 40px;
-        height: 40px;
+        min-height: 40px;
         font-size: 40px;
         color: #354463;
-        padding-top: 3px;
+        /* padding-top: 3px; */
         text-decoration: none;
         position: absolute;
-        top: 25%;
+        top: 45%;
         right: 5px;
     }
 
     .slide .slide-arrow:hover {
         box-shadow: 0 0 10px 3px rgba(75, 255, 123, 0.5);
 
+    }
+    .slide .slide-arrow img{
+        width: 20px;
+        height: 15px;
     }
 
     .slider-nav {
